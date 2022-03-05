@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "simple-express-server",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Amit Prajapati <amitprajapati@margsoft.technology>",
@@ -8,10 +8,12 @@
     "start": "tsc && node dist/server.js"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.179",
     "typescript": "^4.6.2"
   }
 }
